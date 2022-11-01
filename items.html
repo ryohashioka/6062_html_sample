@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>items sample</title>
+    <style>
+      .items {
+        display: flex;
+        gap: 2rem;
+        flex-wrap: wrap;
+      }
+      .item {
+        width: 200px;
+      }
+      .item:hover {
+        background-color: rgba(0,0,0,.2);
+        cursor: pointer;
+      }
+      .item img{
+        max-width: 200px;
+        max-height: 200px;
+      }
+      .item-name{
+        font-weight: bold;
+        
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .item-price {
+        font-weight: bold;
+        color: red;
+      }
+    </style>
+
+    <link href="./css/page-top.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="items">
+      <div class="item">
+        <img src="./images/1.png" />
+        <p class="item-name">タイトル</p>
+        <p class="item-price">3000円</p>
+      </div>
+      <div class="item">
+        <img src="./images/2.png" />
+        <p class="item-name">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
+        <p class="item-price">3500円</p>
+      </div>
+      <div class="item">
+        <img src="./images/3.png" />
+        <p class="item-name">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
+        <p class="item-price">2000円</p>
+      </div>
+      <div class="item">
+        <img src="./images/4.png" />
+        <p class="item-name">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
+        <p class="item-price">2000円</p>
+      </div>
+      <div class="item">
+        <img src="./images/5.png" />
+        <p class="item-name">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
+        <p class="item-price">2000円</p>
+      </div>
+      <div class="item">
+        <img src="./images/6.png" />
+        <p class="item-name">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
+        <p class="item-price">2000円</p>
+      </div>
+      <div class="item">
+        <img src="./images/7.png" />
+        <p class="item-name">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
+        <p class="item-price">2000円</p>
+      </div>
+      <div class="item">
+        <img src="./images/8.png" />
+        <p class="item-name">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
+        <p class="item-price">2000円</p>
+      </div>
+      <div class="item">
+        <img src="./images/9.png" />
+        <p class="item-name">タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</p>
+        <p class="item-price">2000円</p>
+      </div>
+    </div>
+    <button id="page_top_btn" class="hide">
+      👆
+    </button>
+    <script src="./js/pagetop.js"></script>
+  </body>
+</html>

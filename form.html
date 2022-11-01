@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>items sample</title>
+    <link href="./css/form.css" rel="stylesheet">
+    <style>
+      body {
+        background-color: #e0efd8;
+        display: flex;
+        justify-content: center;
+      }
+      main {
+        background-color: white;
+        width: 600px;
+        padding: 2rem;
+        border-radius: 10px;
+      }
+      li {
+        list-style: none;
+      }
+      .title {
+        font-weight: bold;
+        border-bottom: 2px solid #25aae1;
+      }
+      .form-item {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>ホゲホゲ</h1>
+      <p>フガフガフガフガフガフガフガフガ</p>
+      <form>
+        <div class="form-item">
+          <div class="question">
+            <p class="title">質問１</p>
+            <p class="description">テキストテキストテキストテキストテキスト</p>
+          </div>
+          <ul class="answer">
+            <li>
+              <input type="radio" id="q1a1" name="q1a" value="a1" />
+              <label>回答１</label>
+            </li>
+            <li>
+              <input type="radio" id="q1a2" name="q1a" value="a2" />
+              <label>回答２</label>
+            </li>
+            <li>
+              <input type="radio" id="q1a3" name="q1a" value="a3" checked />
+              <label>回答３</label>
+            </li>
+            <li>
+              <input type="radio" id="q1a4" name="q1a" value="a4" checked />
+              <label>回答４</label>
+            </li>
+            <li>
+              <input type="radio" id="q1a5" name="q1a" value="a5" checked />
+              <label>回答５</label>
+            </li>
+          </ul>
+        </div>
+        <div class="form-item">
+          <div class="question">
+            <p class="title">質問２</p>
+            <p class="description">テキストテキストテキストテキストテキスト</p>
+          </div>
+          <ul class="answer">
+            <li>
+              <input type="checkbox" id="q2a1" name="q2a1" checked />
+              <label>回答１</label>
+            </li>
+            <li>
+              <input type="checkbox" id="q2a2" name="q2a2" />
+              <label>回答２</label>
+            </li>
+            <li>
+              <input type="checkbox" id="q2a3" name="q2a3" />
+              <label>回答３</label>
+            </li>
+          </ul>
+        </div>
+        <button class="bn632-hover bn26">送信</button>
+      </form>
+    </main>
+  </body>
+</html>
