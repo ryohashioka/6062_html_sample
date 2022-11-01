@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>サンプルフォーム</title>
+    <link href="./css/form.css" rel="stylesheet">
+    <style>
+      body {
+        /* background-color: rgb(235, 219, 209); */
+        background-color: #e9e9f6;
+      }
+      .box {
+        background-color: white;
+        padding: 50px;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 10px;
+      }
+      .form-item {
+        display: flex;
+      }
+      .question, .answer {
+        flex: 1;
+      }
+      .answer {
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <h1>ホゲホゲ</h1>
+      <p>フガフガフガフガフガフガフガフガフガフガ</p>
+      <form>
+        <div class="form-item">
+          <div class="question">
+            <h3>質問１</h3>
+            <p>相手の間違いを指摘できる方だ</p>
+          </div>
+          <div class="answer">
+            <div>
+              <input type="radio" id="huey" name="drone" value="huey">
+              <label for="huey">Huey</label>
+            </div>
+        
+            <div>
+              <input type="radio" id="dewey" name="drone" value="dewey">
+              <label for="dewey">Dewey</label>
+            </div>
+        
+            <div>
+              <input type="radio" id="louie" name="drone" value="louie">
+              <label for="louie">Louie</label>
+            </div>
+          </div>
+        </div>
+        <div class="form-item">
+          <div class="question">
+            <h3>質問２</h3>
+            <p>相手の間違いを指摘できる方だ</p>
+          </div>
+          <div class="answer">
+            
+            <div>
+              <input type="radio" id="dewey" name="hoge" value="dewey">
+              <label for="dewey">Dewey</label>
+            </div>
+        
+            <div>
+              <input type="radio" id="louie" name="hoge" value="louie">
+              <label for="louie">Louie</label>
+            </div>
+          </div>
+        </div>
+        <button class="bn26 bn632-hover">送信</button>
+      </form>
+    </div>
+  </body>
+</html>

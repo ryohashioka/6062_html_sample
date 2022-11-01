@@ -1,0 +1,15 @@
+#page_top_btn {
+  position: fixed;
+  bottom: .5rem;
+  right: .5rem;
+  font-size: 2rem;
+  padding: 1rem;
+  border-radius: 50%;
+
+  /* アニメーション */
+  transition: all .5s;
+}
+
+#page_top_btn.hide {
+  opacity: 0;
+}
